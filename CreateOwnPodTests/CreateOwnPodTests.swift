@@ -10,6 +10,20 @@ import XCTest
 
 class CreateOwnPodTests: XCTestCase {
 
+    
+    var createOwnPod : CreateOwnPod!
+    
+    override func setUp() {
+        createOwnPod = CreateOwnPod()
+    }
+    func testSum() {
+        XCTAssertEqual(createOwnPod.sum(x: 3, y: 8), 11)
+    }
+    func testMultiply() {
+        XCTAssertEqual(createOwnPod.multiply(x: 3, y: 4), 12)
+    }
+    
+    /*
     override func setUpWithError() throws {
         // Put setup code here. This method is called before the invocation of each test method in the class.
     }
@@ -29,5 +43,5 @@ class CreateOwnPodTests: XCTestCase {
             // Put the code you want to measure the time of here.
         }
     }
-
+*/
 }

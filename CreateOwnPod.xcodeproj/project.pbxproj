@@ -16,6 +16,7 @@
 		180253032646915600622D4B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 180253012646915600622D4B /* Main.storyboard */; };
 		180253052646915700622D4B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 180253042646915700622D4B /* Assets.xcassets */; };
 		180253082646915700622D4B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 180253062646915700622D4B /* LaunchScreen.storyboard */; };
+		18025311264692B800622D4B /* CreateOwnPod.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18025310264692B800622D4B /* CreateOwnPod.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -43,6 +44,7 @@
 		180253042646915700622D4B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		180253072646915700622D4B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		180253092646915700622D4B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		18025310264692B800622D4B /* CreateOwnPod.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreateOwnPod.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -96,6 +98,7 @@
 			children = (
 				180252DC2646911600622D4B /* CreateOwnPod.h */,
 				180252DD2646911600622D4B /* Info.plist */,
+				18025310264692B800622D4B /* CreateOwnPod.swift */,
 			);
 			path = CreateOwnPod;
 			sourceTree = "<group>";
@@ -201,6 +204,7 @@
 				TargetAttributes = {
 					180252D82646911600622D4B = {
 						CreatedOnToolsVersion = 12.4;
+						LastSwiftMigration = 1240;
 					};
 					180252E12646911600622D4B = {
 						CreatedOnToolsVersion = 12.4;
@@ -262,6 +266,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				18025311264692B800622D4B /* CreateOwnPod.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -438,6 +443,7 @@
 		180252EE2646911600622D4B /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				DEFINES_MODULE = YES;
 				DEVELOPMENT_TEAM = A6TXNR8TL5;
@@ -454,6 +460,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.bahadirseyfi.CreateOwnPod;
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -462,6 +469,7 @@
 		180252EF2646911600622D4B /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				DEFINES_MODULE = YES;
 				DEVELOPMENT_TEAM = A6TXNR8TL5;
@@ -486,6 +494,7 @@
 		180252F12646911600622D4B /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = A6TXNR8TL5;
 				INFOPLIST_FILE = CreateOwnPodTests/Info.plist;
@@ -504,6 +513,7 @@
 		180252F22646911600622D4B /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = A6TXNR8TL5;
 				INFOPLIST_FILE = CreateOwnPodTests/Info.plist;

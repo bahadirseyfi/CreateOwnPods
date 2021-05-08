@@ -10,6 +10,12 @@
 		180252E32646911600622D4B /* CreateOwnPod.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 180252D92646911600622D4B /* CreateOwnPod.framework */; };
 		180252E82646911600622D4B /* CreateOwnPodTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 180252E72646911600622D4B /* CreateOwnPodTests.swift */; };
 		180252EA2646911600622D4B /* CreateOwnPod.h in Headers */ = {isa = PBXBuildFile; fileRef = 180252DC2646911600622D4B /* CreateOwnPod.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		180252FC2646915600622D4B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 180252FB2646915600622D4B /* AppDelegate.swift */; };
+		180252FE2646915600622D4B /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 180252FD2646915600622D4B /* SceneDelegate.swift */; };
+		180253002646915600622D4B /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 180252FF2646915600622D4B /* ViewController.swift */; };
+		180253032646915600622D4B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 180253012646915600622D4B /* Main.storyboard */; };
+		180253052646915700622D4B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 180253042646915700622D4B /* Assets.xcassets */; };
+		180253082646915700622D4B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 180253062646915700622D4B /* LaunchScreen.storyboard */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -29,6 +35,14 @@
 		180252E22646911600622D4B /* CreateOwnPodTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CreateOwnPodTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		180252E72646911600622D4B /* CreateOwnPodTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreateOwnPodTests.swift; sourceTree = "<group>"; };
 		180252E92646911600622D4B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		180252F92646915600622D4B /* CreateOwnPodExamples.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CreateOwnPodExamples.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		180252FB2646915600622D4B /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		180252FD2646915600622D4B /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		180252FF2646915600622D4B /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		180253022646915600622D4B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		180253042646915700622D4B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		180253072646915700622D4B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		180253092646915700622D4B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -47,6 +61,13 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		180252F62646915600622D4B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
@@ -55,6 +76,7 @@
 			children = (
 				180252DB2646911600622D4B /* CreateOwnPod */,
 				180252E62646911600622D4B /* CreateOwnPodTests */,
+				180252FA2646915600622D4B /* CreateOwnPodExamples */,
 				180252DA2646911600622D4B /* Products */,
 			);
 			sourceTree = "<group>";
@@ -64,6 +86,7 @@
 			children = (
 				180252D92646911600622D4B /* CreateOwnPod.framework */,
 				180252E22646911600622D4B /* CreateOwnPodTests.xctest */,
+				180252F92646915600622D4B /* CreateOwnPodExamples.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -84,6 +107,20 @@
 				180252E92646911600622D4B /* Info.plist */,
 			);
 			path = CreateOwnPodTests;
+			sourceTree = "<group>";
+		};
+		180252FA2646915600622D4B /* CreateOwnPodExamples */ = {
+			isa = PBXGroup;
+			children = (
+				180252FB2646915600622D4B /* AppDelegate.swift */,
+				180252FD2646915600622D4B /* SceneDelegate.swift */,
+				180252FF2646915600622D4B /* ViewController.swift */,
+				180253012646915600622D4B /* Main.storyboard */,
+				180253042646915700622D4B /* Assets.xcassets */,
+				180253062646915700622D4B /* LaunchScreen.storyboard */,
+				180253092646915700622D4B /* Info.plist */,
+			);
+			path = CreateOwnPodExamples;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -136,6 +173,23 @@
 			productReference = 180252E22646911600622D4B /* CreateOwnPodTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
+		180252F82646915600622D4B /* CreateOwnPodExamples */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1802530A2646915700622D4B /* Build configuration list for PBXNativeTarget "CreateOwnPodExamples" */;
+			buildPhases = (
+				180252F52646915600622D4B /* Sources */,
+				180252F62646915600622D4B /* Frameworks */,
+				180252F72646915600622D4B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = CreateOwnPodExamples;
+			productName = CreateOwnPodExamples;
+			productReference = 180252F92646915600622D4B /* CreateOwnPodExamples.app */;
+			productType = "com.apple.product-type.application";
+		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -149,6 +203,9 @@
 						CreatedOnToolsVersion = 12.4;
 					};
 					180252E12646911600622D4B = {
+						CreatedOnToolsVersion = 12.4;
+					};
+					180252F82646915600622D4B = {
 						CreatedOnToolsVersion = 12.4;
 					};
 				};
@@ -168,6 +225,7 @@
 			targets = (
 				180252D82646911600622D4B /* CreateOwnPod */,
 				180252E12646911600622D4B /* CreateOwnPodTests */,
+				180252F82646915600622D4B /* CreateOwnPodExamples */,
 			);
 		};
 /* End PBXProject section */
@@ -184,6 +242,16 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		180252F72646915600622D4B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				180253082646915700622D4B /* LaunchScreen.storyboard in Resources */,
+				180253052646915700622D4B /* Assets.xcassets in Resources */,
+				180253032646915600622D4B /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -205,6 +273,16 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		180252F52646915600622D4B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				180253002646915600622D4B /* ViewController.swift in Sources */,
+				180252FC2646915600622D4B /* AppDelegate.swift in Sources */,
+				180252FE2646915600622D4B /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
@@ -214,6 +292,25 @@
 			targetProxy = 180252E42646911600622D4B /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		180253012646915600622D4B /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				180253022646915600622D4B /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		180253062646915700622D4B /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				180253072646915700622D4B /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
 		180252EB2646911600622D4B /* Debug */ = {
@@ -422,6 +519,44 @@
 			};
 			name = Release;
 		};
+		1802530B2646915700622D4B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = A6TXNR8TL5;
+				INFOPLIST_FILE = CreateOwnPodExamples/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.bahadirseyfi.CreateOwnPodExamples;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		1802530C2646915700622D4B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = A6TXNR8TL5;
+				INFOPLIST_FILE = CreateOwnPodExamples/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.bahadirseyfi.CreateOwnPodExamples;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -448,6 +583,15 @@
 			buildConfigurations = (
 				180252F12646911600622D4B /* Debug */,
 				180252F22646911600622D4B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1802530A2646915700622D4B /* Build configuration list for PBXNativeTarget "CreateOwnPodExamples" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1802530B2646915700622D4B /* Debug */,
+				1802530C2646915700622D4B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
